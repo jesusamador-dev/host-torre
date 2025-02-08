@@ -8,7 +8,7 @@ require('dotenv').config({ path: `./.env.devlocal` });
 const remoteCore = process.env.REACT_APP_CORE_REMOTE ?? "https://portal.kairosportaldev.com.mx/";
 const remoteCommon = process.env.REACT_APP_DASHBOARDS_COMMON_REMOTE ?? "https://portal.kairosportaldev.com.mx/";
 const remoteSolicitudes = process.env.REACT_APP_DASHBOARDS_SOLICITUDES_REMOTE ?? "https://portal.kairosportaldev.com.mx/";
-const remoteHost = process.env.REACT_APP_DASHBOARDS_HOST_REMOTE ?? "https://portal.kairosportaldev.com.mx/";
+const remoteHost = process.env.REACT_APP_DASHBOARDS_HOST_REMOTE ?? "https://host-torre.vercel.app/";
 
 const reactCoreRemoteEntryPath = `mf_react_core@${remoteCore}core/v1`;
 const dashboardsCommonEntryPath = `mf_mesacyc_dashboards_common@${remoteCommon}dashboards/common/v1`;
