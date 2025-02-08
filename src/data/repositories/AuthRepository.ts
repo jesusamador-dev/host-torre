@@ -1,5 +1,4 @@
 import { IAuthRepository, IRequestLogin } from '@/domain/repositories/IAuthRepository';
-// no sonar
 import { axiosGlobal } from 'mf_mesacyc_dashboards_common/axios';
 
 export class AuthRepository implements IAuthRepository {
