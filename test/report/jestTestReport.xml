@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="React Template Test" tests="15" failures="0" errors="0" time="51.504">
+  <testsuite name="AuthService" errors="0" failures="0" skipped="0" timestamp="2024-09-19T23:31:14" time="18.131" tests="3">
+    <testcase classname="AuthService should return a token when login is successful" name="AuthService should return a token when login is successful" time="0.01">
+    </testcase>
+    <testcase classname="AuthService should return false if login fails to get a token" name="AuthService should return false if login fails to get a token" time="0.003">
+    </testcase>
+    <testcase classname="AuthService should return true if there is an exception during login" name="AuthService should return true if there is an exception during login" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="AuthRepository" errors="0" failures="0" skipped="0" timestamp="2024-09-19T23:31:14" time="18.151" tests="2">
+    <testcase classname="AuthRepository should return token when login is successful" name="AuthRepository should return token when login is successful" time="0.007">
+    </testcase>
+    <testcase classname="AuthRepository should throw an error when login fails" name="AuthRepository should throw an error when login fails" time="0.025">
+    </testcase>
+  </testsuite>
+  <testsuite name="Welcome test" errors="0" failures="0" skipped="0" timestamp="2024-09-19T23:31:14" time="19.728" tests="4">
+    <testcase classname="Welcome test is testing a sample Welcome." name="Welcome test is testing a sample Welcome." time="0.049">
+    </testcase>
+    <testcase classname="Welcome safeview test is testing a sample SafeView." name="Welcome safeview test is testing a sample SafeView." time="0.393">
+    </testcase>
+    <testcase classname="Welcome safeview test 2 is testing a sample SafeView class." name="Welcome safeview test 2 is testing a sample SafeView class." time="0.001">
+    </testcase>
+    <testcase classname="Welcome Skeleton test is testing a sample Skeleton." name="Welcome Skeleton test is testing a sample Skeleton." time="0.032">
+    </testcase>
+  </testsuite>
+  <testsuite name="TokenAuth Component" errors="0" failures="0" skipped="0" timestamp="2024-09-19T23:31:14" time="28.655" tests="3">
+    <testcase classname="TokenAuth Component should decode token and login successfully" name="TokenAuth Component should decode token and login successfully" time="0.106">
+    </testcase>
+    <testcase classname="TokenAuth Component should navigate to error page for invalid token" name="TokenAuth Component should navigate to error page for invalid token" time="0.006">
+    </testcase>
+    <testcase classname="TokenAuth Component should navigate to error page if token is missing required fields" name="TokenAuth Component should navigate to error page if token is missing required fields" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="RouterApp" errors="0" failures="0" skipped="0" timestamp="2024-09-19T23:31:14" time="33.519" tests="3">
+    <testcase classname="RouterApp renders &quot;Hola mundo&quot; on the root route" name="RouterApp renders &quot;Hola mundo&quot; on the root route" time="0.062">
+    </testcase>
+    <testcase classname="RouterApp renders TokenAuth component on /token/:token route" name="RouterApp renders TokenAuth component on /token/:token route" time="0.015">
+    </testcase>
+    <testcase classname="RouterApp renders ErrorLayout component on /error route" name="RouterApp renders ErrorLayout component on /error route" time="0.051">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="E:\Users\1133793\Documents\microfronts\aws\mfe-host-torrecontrol\test\data\services\AuthService.spec.ts">
+    <testCase name="AuthService should return a token when login is successful" duration="10"/>
+    <testCase name="AuthService should return false if login fails to get a token" duration="3"/>
+    <testCase name="AuthService should return true if there is an exception during login" duration="3"/>
+  </file>
+  <file path="E:\Users\1133793\Documents\microfronts\aws\mfe-host-torrecontrol\test\data\repositories\AuthRepository.spec.ts">
+    <testCase name="AuthRepository should return token when login is successful" duration="7"/>
+    <testCase name="AuthRepository should throw an error when login fails" duration="25"/>
+  </file>
+  <file path="E:\Users\1133793\Documents\microfronts\aws\mfe-host-torrecontrol\test\welcome\Welcome.spec.tsx">
+    <testCase name="Welcome test is testing a sample Welcome." duration="49"/>
+    <testCase name="Welcome safeview test is testing a sample SafeView." duration="393"/>
+    <testCase name="Welcome safeview test 2 is testing a sample SafeView class." duration="1"/>
+    <testCase name="Welcome Skeleton test is testing a sample Skeleton." duration="32"/>
+  </file>
+  <file path="E:\Users\1133793\Documents\microfronts\aws\mfe-host-torrecontrol\test\presentation\components\TokenAuth.spec.tsx">
+    <testCase name="TokenAuth Component should decode token and login successfully" duration="106"/>
+    <testCase name="TokenAuth Component should navigate to error page for invalid token" duration="6"/>
+    <testCase name="TokenAuth Component should navigate to error page if token is missing required fields" duration="8"/>
+  </file>
+  <file path="E:\Users\1133793\Documents\microfronts\aws\mfe-host-torrecontrol\test\app\router\RouterApp.spec.tsx">
+    <testCase name="RouterApp renders &quot;Hola mundo&quot; on the root route" duration="62"/>
+    <testCase name="RouterApp renders TokenAuth component on /token/:token route" duration="15"/>
+    <testCase name="RouterApp renders ErrorLayout component on /error route" duration="51"/>
+  </file>
+</testExecutions>

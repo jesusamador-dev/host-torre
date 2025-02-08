@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Welcome Skeleton test is testing a sample Skeleton. 1`] = `null`;
+
+exports[`Welcome safeview test is testing a sample SafeView. 1`] = `null`;
+
+exports[`Welcome test is testing a sample Welcome. 1`] = `null`;
