@@ -1,6 +1,7 @@
 {
   "name": "mfe-host-torrecontrol",
   "version": "1.0.0",
+  "homepage": ".",
   "scripts": {
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development",
