@@ -4,7 +4,7 @@ import { IWeek, weeks, Week } from 'mf_mesacyc_dashboards_common/Week';
 import { processParams } from 'mf_mesacyc_dashboards_common/processParams';
 import { IGlobalRepository } from '@/domain/repositories/IGlobalRepository';
 
-const proxyUrl =(`${process.env.REACT_APP_MIDDLEWARE}cobranza-credito/investigacion-cobranza/ffm/lbd-middleware-seguridadffm/torrecontrol`);
+const proxyUrl =(`https://proxy-reverse-production.up.railway.app/torre-control/cobranza-credito/investigacion-cobranza/ffm/lbd-middleware-seguridadffm/torrecontrol`);
 
 export class GlobalRepository implements IGlobalRepository {
   private readonly apiUrl = proxyUrl
